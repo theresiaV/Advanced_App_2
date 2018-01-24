@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Nav_Dashboard"
+            android:icon="@drawable/awan"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/Nav_Transaction"
+            android:icon="@drawable/uang"
+            android:title="Transaction" />
+        <item
+            android:id="@+id/Nav_Syncrhozine"
+            android:icon="@drawable/idea"
+            android:title="Synchorizine" />
+    </group>
+
+</menu>
